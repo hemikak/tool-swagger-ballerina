@@ -81,6 +81,11 @@
                 <artifactId>ballerina-launcher</artifactId>
                 <version>${ballerina.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.ballerinalang</groupId>
+                <artifactId>ballerina-to-swagger-generator</artifactId>
+                <version>${ballerina.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -162,6 +167,7 @@
     <modules>
         <module>modules/swagger-ballerina-generator</module>
         <module>modules/ballerina-to-swagger-generator</module>
+        <module>modules/ballerina-to-swagger-interceptor</module>
     </modules>
 
 </project>
